@@ -6,3 +6,4 @@ Practice from a self-built image-processing course: for each lesson, LESSON.md s
 | --- | --- | --- | --- |
 | 01 | [An Image Is a Grid of Numbers](0001-read-the-grid/LESSON.md) | [Read the Grid](0001-read-the-grid/BRIEF.md) | Load a real photo as a numpy array, then read, find, crop, flip and mark pixels by coordinates, with numpy first and OpenCV as the check. |
 | 02 | [Three Numbers per Pixel](0002-mix-the-channels/LESSON.md) | [Mix the Channels](0002-mix-the-channels/BRIEF.md) | Fix a BGR mix-up, split and weigh colour channels by hand to match cvtColor, and alpha-composite a transparent badge onto a photo at a given (x, y). |
+| 03 | [When 255 + 1 Is 0](0003-normalise-safely/LESSON.md) | [Normalise Safely](0003-normalise-safely/BRIEF.md) | Brighten a dim photo three ways, round-trip it through floats exactly, stretch and standardise it, and load a 16-bit frame without losing precision. Every claim is an assert. |
